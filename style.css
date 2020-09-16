@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+input
+{
+    outline: none;
+}
+
+button
+{
+    outline: none;
+}
+
+header{
+    background: #c90e0e;
+    text-align: center;
+    color:#fff;
+}
+
+header h1{
+    padding: 15px 0 15px 0;
+}
+
+
+
+.sidebar{
+    position: sticky;
+    top:10px;
+}
