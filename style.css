@@ -5,6 +5,10 @@
     outline: none;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 a
 {
     text-decoration: none;
@@ -40,4 +44,11 @@ header h1{
 .sidebar{
     position: sticky;
     top:10px;
+}
+
+
+@media screen and (max-width: 1200px){
+.right_content{
+    display: none;
+}
 }
